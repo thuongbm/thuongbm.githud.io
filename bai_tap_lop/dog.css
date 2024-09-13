@@ -1,0 +1,34 @@
+.fist{
+    content: "";
+    display: block; /*định dạng khối cho ptuw */
+    margin-top: 5px;
+    width: 100%;
+    height: px;
+    background-color: powderblue;
+}
+.font{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.second{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.no_efect{
+    background-color: inherit; /* Giữ nguyên màu nền ban đầu */
+    cursor: default; /* Không thay đổi con trỏ chuột */
+}
+.second_color{
+    color: hsl(217, 94%, 38%);
+}
+.color_row{
+    background-color: rgb(154, 206, 234);
+}
+.center_row{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form_row{
+    display: flex;
+    padding: 8px 0;
+}

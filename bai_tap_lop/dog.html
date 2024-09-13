@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dog document</title>
+        <link rel="stylesheet" href="dog.css">
+        <style>
+            body{
+                background-image: linear-gradient(white, #D3D1D1);
+                background-repeat: no-repeat;
+            }
+            table{
+                width: 50%;
+                border-collapse: collapse; /* Đảm bảo các đường kẻ không bị đúp */
+            }
+            table {
+                border: 3px solid black; /* Đường kẻ dày hơn cho toàn bộ bảng */
+            th, td{
+                text-align: left;
+                border: 1px solid #ddd;
+                padding: 8px;
+                transition: border;
+                font-family: Arial, Helvetica, sans-serif;
+                border-top: 3px solid black; /* Chỉ làm đậm đường kẻ trên */
+                border-bottom: 3px solid black; /* Làm đậm đường kẻ dưới */
+                border-left: 3px solid black; /* Đường kẻ trái nhỏ hơn */
+                border-right: 3px solid black; /* Đường kẻ phải nhỏ hơn */
+            }
+            /* th{
+                background-color: #f2f2f2;
+                font-weight: bold;
+            } */
+            /* tr :nth-child(even){
+                background-color: #c4bfbf;
+            } */
+            a {
+            color: #3498db;
+            text-decoration: none;
+            }
+            /*a:hover {
+                text-decoration: underline; /*khi di chuột đến thì có dấu gạch chân*/
+            }*/
+            input[type="text"] {
+                width: 100%;
+                padding: 10px; 
+                margin: 10px 0; 
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box; 
+                font-size: 14px;
+            }
+            label {
+                display: inline-block;
+                width: 100px; 
+            }
+            form {
+                width: 300px; 
+                margin: auto; 
+            }
+            .image {
+                position: absolute;
+                top: 70px; 
+                right: 0px; 
+                margin: 10px; 
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div><h1><strong>DOG D. DOG</Data></strong></h1></div>
+        <div class="fist"><strong style="color: violet;"><h2>About</h3></strong></div>
+        <div><span class="font">Woof woof!</span></div>
+        <div><span class="font">Hi, i'am dog. I love <strong style="color: plum;">User Interface Design.</strong></span></div>
+        <div class="fist"><strong style="color: violet;"><h2>Courses</h2></strong></div>
+        <div class="font">Here are some couses i've taken:</div>
+        <div>
+            <img class="image" src="d3726191-4f1f-4ff2-80e8-3c5aca2c9cdf.jpg" alt="my_dog" width="250px">
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Number</th>
+                        <th style="background-color: #f2f2f2;">Course Title</th>
+                        <th>Semester Taken</th>
+                    </tr>
+                    <tr class="center-row">
+                        <td class="center_row" colspan="3">For Credit</td> <!-- colspan="3" để dòng này chiếm 3 cột -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="color_row">
+                        <td class="second_color">6.813</td>
+                        <td><a href="#">User Interface Design</a></td>
+                        <td><a href="">Spring 2014</a></td>
+                    </tr>
+                    <tr>
+                        <td class="second_color">6.034</td>
+                        <td>Artificial Intelligence</td>
+                        <td>Fall 2013</td>
+                    </tr>
+                    <tr class="color_row">
+                        <td  class="second_color">6.006</td>
+                        <td>Introduction to Algorithms</td>
+                        <td>Fall 2013</td>
+                    </tr>
+                    <tr class="center-row">
+                        <td class="center_row" colspan="3">Listener</td> <!-- colspan="3" để dòng này chiếm 3 cột -->
+                    </tr>
+                    <tr class="color_row">
+                        <td>6.867</td>
+                        <td>Machine Learning</td>
+                        <td>Fall 2013</td>
+                    </tr>
+                    <tr>
+                        <td>6.830</td>
+                        <td>Database Systems</td>
+                        <td>Fall 2012</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="fist"><strong style="color: violet;"><h2>Interests</h3></strong></div>
+        <div class="font">I am Interested <strong>HCI</strong> memes, and youtube videos</div>
+        <div class="fist"><strong style="color: violet;"><h2>Sudmit pet information</h3></strong></div>
+        <div class="font">Would love you know what kind of 'own' (you'll never own me). Submit below!</div>
+        <label for="name">Name:</label>
+        <input style="margin-top: 10px;" type="text" id="name" name="name"> <br>
+        <label for="phylum">Phylum:</label>
+        <input style="margin-top: 10px;" type="text" id="phylum" name="phylum"> <br>
+        <label for="gender">Gender:</label>
+        <input style="margin-top: 10px;"type="text" id="gender" name="gender"> <br>
+    </body>
+</html>

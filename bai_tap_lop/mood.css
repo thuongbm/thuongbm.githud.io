@@ -1,0 +1,17 @@
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 141, 243);
+    padding-top: 5px;
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-style: italic;
+}
+.imagine {
+    width: 30%;
+}    
+.text-inline {
+    display: inline-block; /* Keep text inline with image */
+    vertical-align:bottom; /* Align vertically with image */
+}
